@@ -11,8 +11,8 @@ export function TaskCard({ task }) {
         <h1 className="text-xl font-bold">{task.title}</h1>
       </Link>
       <p>{task.description}</p>
-      <Button onClick={() => router.push(`/tasks/${task._id}`)}>View</Button>
-      <Button onClick={() => router.push(`/tasks/${task._id}/edit`)}>
+      <Button onClick={() => router.push(`/dashboard/tasks/${task._id}`)}>View</Button>
+      <Button onClick={() => router.push(`/dashboard/tasks/${task._id}/edit`)}>
         Edit
       </Button>
     </div>

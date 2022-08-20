@@ -20,7 +20,7 @@ export default function Index({ tasks = [] }) {
             <h1>There are no tasks yet.</h1>
             <img src="https://img.freepik.com/vector-gratis/ningun-concepto-ilustracion-datos_108061-573.jpg?size=338&ext=jpg" />
             <div>
-              <Button primary onClick={() => router.push("/tasks/new")}>
+              <Button primary onClick={() => router.push("/dashboard/tasks/new")}>
                 Create Task
               </Button>
             </div>
